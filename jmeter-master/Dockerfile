@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 # JMeter Version 및 다운로드 URL을 수정해야 할 수 있습니다.
-ENV JMETER_VERSION 5.4.1
+ENV JMETER_VERSION 5.4.3
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
 ENV PATH $JMETER_HOME/bin:$PATH
 
